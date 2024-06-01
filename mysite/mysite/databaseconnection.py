@@ -2,11 +2,11 @@ import psycopg2
 
 class DataBaseConnection:
     CONFIG={
-         'dbname':'bank',
+         'dbname':'formdb',
          'host':'localhost',
-         'port':5648,
+         'port':5060,
          'user':'postgres',
-         'password':'1380ACreZA46'
+         'password':'TY@%57rk'
     }
     def __init__(self) -> None:
         self.connection_obj=None
